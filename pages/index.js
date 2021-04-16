@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1>Title of this page</h1>
-        <p>Dit wordt de home pagina van mijn website.</p>
+        <p>This will become the homepage of my personal space on the internet.</p>
       </main>
 
       <footer>
