@@ -14,6 +14,46 @@
             "source": "/linkedin",
             "destination": "https://www.linkedin.com/in/lorenzodelijser/",
             "permanent": true
+        },
+        {
+            "source": "/figma",
+            "destination": "https://www.figma.com/@lorenzo",
+            "permanent": true
+        },
+        {
+            "source": "/dribbble",
+            "destination": "https://dribbble.com/lorenzodelijser",
+            "permanent": true
+        },
+        {
+            "source": "/codesandbox",
+            "destination": "https://codesandbox.io/u/lorenzodelijser",
+            "permanent": true
+        },
+        {
+            "source": "/codepen",
+            "destination": "https://codepen.io/lorenzodelijser",
+            "permanent": true
+        },
+        {
+            "source": "/producthunt",
+            "destination": "https://www.producthunt.com/@llijser",
+            "permanent": true
+        },
+        {
+            "source": "/readcv",
+            "destination": "https://read.cv/lorenzo",
+            "permanent": true
+        },
+        {
+            "source": "/readng",
+            "destination": "https://beta.readng.co/user/lorenzo",
+            "permanent": true
+        },
+        {
+            "source": "/medium",
+            "destination": "https://medium.com/@lorenzodelijser/about",
+            "permanent": true
         }
     ]
 }
