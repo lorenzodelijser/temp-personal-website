@@ -8,12 +8,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="main">
+      <main>
         <h1>Title of this page</h1>
         <p>Dit wordt de home pagina van mijn website.</p>
       </main>
 
-      <footer className="footer">
+      <footer>
         <a
           href="https://twitter.com/lorenzodelijser"
           target="_blank"
