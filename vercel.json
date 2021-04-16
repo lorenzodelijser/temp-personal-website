@@ -1,0 +1,19 @@
+{
+    "redirects": [
+        {
+            "source": "/twitter",
+            "destination": "https://twitter.com/lorenzodelijser",
+            "permanent": true
+        },
+        {
+            "source": "/github",
+            "destination": "https://github.com/lorenzodelijser",
+            "permanent": true
+        },
+        {
+            "source": "/linkedin",
+            "destination": "https://www.linkedin.com/in/lorenzodelijser/",
+            "permanent": true
+        }
+    ]
+}
