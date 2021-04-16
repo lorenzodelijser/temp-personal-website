@@ -2,18 +2,18 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Lorenzo de Lijser</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="main">
         <h1>Title of this page</h1>
         <p>Dit wordt de home pagina van mijn website.</p>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="footer">
         <a
           href="https://twitter.com/lorenzodelijser"
           target="_blank"
