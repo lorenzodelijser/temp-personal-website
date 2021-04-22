@@ -27,19 +27,15 @@ a {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 64px 64px 64px 64px 64px 64px 64px 64px 64px 64px 64px 64px;
-  gap: 40px;
+  display: flex;
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 1em;
   justify-content: center;
+  align-items: center;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  grid-column: 5 / 9;
+  max-width: 375px;
 
   h1 {
     font-size: 32px;
