@@ -1,34 +1,37 @@
 import Head from 'next/head'
 
+// Components
+import Icon from '../src/components/atoms/Icon'
+
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Lorenzo de Lijser</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text x='0' y='14'>👋</text></svg>"
+        />
       </Head>
 
       <main>
-        <h1>Title of this page</h1>
-        <p>This will become the homepage of my personal space on the internet.</p>
+        <h1>Lorenzo de Lijser</h1>
+        <p>A new website is in progress, for the meanwhile you can visit my social profiles.</p>
+        <div className="social-links">
+          <a href="https://twitter.com/lorenzodelijser">
+            <Icon name="twitter" />
+          </a>
+          <a href="https://www.linkedin.com/in/lorenzodelijser/">
+            <Icon name="linkedin" />
+          </a>
+          <a href="https://github.com/lorenzodelijser">
+            <Icon name="github" />
+          </a>
+          <a href="https://dribbble.com/lorenzodelijser">
+            <Icon name="dribbble" />
+          </a>
+        </div>
       </main>
-
-      <footer>
-        <a
-          href="https://twitter.com/lorenzodelijser"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://github.com/lorenzodelijser"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </footer>
     </div>
   )
 }
