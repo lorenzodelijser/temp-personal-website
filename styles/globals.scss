@@ -79,3 +79,45 @@ main {
     }
   }
 }
+
+nav {
+  position: fixed;
+  bottom: 32px;
+  box-shadow: 0px 8px 16px rgba(51, 51, 51, 0.08), 0px 0px 48px rgba(44, 44, 44, 0.08);
+  border-radius: 24px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 12px 16px;
+    margin: 0;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        font-size: 16px;
+        line-height: 100%;
+        border-radius: 12px;
+        padding: 12px 16px;
+        background-color: #ffffff;
+        font-style: normal;
+        margin-right: 8px;
+        transition: 0.2s background-color;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          background-color: #EFEFEF;
+        }
+      }
+    }
+  }
+}

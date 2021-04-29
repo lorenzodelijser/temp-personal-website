@@ -14,6 +14,36 @@ export default function Home() {
         />
       </Head>
 
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+
       <main>
         <h1>Lorenzo de Lijser</h1>
         <p>A new website is in progress, for the meanwhile you can visit my social profiles.</p>
