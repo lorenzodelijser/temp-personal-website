@@ -58,4 +58,24 @@ main {
     grid-template-columns: 24px 24px 24px 24px;
     gap: 16px;
   }
+
+  .old-portfolio-link {
+    border-top: 1px #F0F0F0 solid;
+    margin: 32px 0 0 0;
+
+    p {
+      font-size: 16px;
+      padding: 16px 0 0 0;
+      color: #7D7D7D;
+    }
+
+    a {
+      text-decoration: underline;
+      transition: 0.2s color;
+
+      &:hover {
+        color: #5C5C5C;
+      }
+    }
+  }
 }

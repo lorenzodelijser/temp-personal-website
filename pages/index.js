@@ -31,6 +31,9 @@ export default function Home() {
             <Icon name="dribbble" />
           </a>
         </div>
+        <div className="old-portfolio-link">
+          <p>You can still visit my old website at: <a href="https://old.lorenzodelijser.com/">old.lorenzodelijser.com</a>.</p>
+        </div>
       </main>
     </div>
   )
