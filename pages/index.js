@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 // Components
 import Icon from '../src/components/atoms/Icon'
+// import MenuBar from '../src/components/atoms/MenuBar'
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
           href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text x='0' y='14'>👋</text></svg>"
         />
       </Head>
+
+      {/* <MenuBar /> */}
 
       <main>
         <h1>Lorenzo de Lijser</h1>
