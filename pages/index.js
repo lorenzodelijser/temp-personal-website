@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 // Components
 import Icon from '../src/components/atoms/Icon'
+// import MenuBar from '../src/components/atoms/MenuBar'
 
 export default function Home() {
   return (
@@ -14,30 +15,7 @@ export default function Home() {
         />
       </Head>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
+      {/* <MenuBar /> */}
 
       <main>
         <h1>Lorenzo de Lijser</h1>

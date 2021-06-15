@@ -4,17 +4,14 @@
   font-weight: 100 900;
   font-display: optional;
   src: url(/fonts/Inter.var.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -75,48 +72,6 @@ main {
 
       &:hover {
         color: #5C5C5C;
-      }
-    }
-  }
-}
-
-nav {
-  position: fixed;
-  bottom: 32px;
-  box-shadow: 0px 8px 16px rgba(51, 51, 51, 0.08), 0px 0px 48px rgba(44, 44, 44, 0.08);
-  border-radius: 24px;
-  background: #FFFFFF;
-  border: 1px solid #EFEFEF;
-
-  ul {
-    list-style-type: none;
-    display: flex;
-    padding: 12px 16px;
-    margin: 0;
-
-    li {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-
-      a {
-        font-size: 16px;
-        line-height: 100%;
-        border-radius: 12px;
-        padding: 12px 16px;
-        background-color: #ffffff;
-        font-style: normal;
-        margin-right: 8px;
-        transition: 0.2s background-color;
-
-        &:last-child {
-          margin-right: 0;
-        }
-
-        &:hover {
-          background-color: #EFEFEF;
-        }
       }
     }
   }
