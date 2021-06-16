@@ -76,7 +76,7 @@ main {
     gap: 16px;
   }
 
-  .old-portfolio-link {
+  .sub-section {
     border-top: 1px var(--divider-color) solid;
     margin: 32px 0 0 0;
 
@@ -89,10 +89,27 @@ main {
     a {
       color: var(--body-text-secondary-color);
       text-decoration: underline;
-      transition: 0.2s color;
+      transition: 200ms color;
 
       &:hover {
+        color: var(--body-text-secondary-hover-color);
+      }
+    }
+
+    button {
+      font-size: 16px;
+      margin: 16px 0 0 0;
+      border-radius: 4px;
+      background-color: var(--background-color);
+      border: 1px var(--divider-color) solid;
+      color: var(--body-text-secondary-color);
+      padding: 8px 12px;
+      transition: color 200ms, border 200ms;
+
+      &:hover {
+        border-color: var(--body-text-secondary-hover-color);
         color: var( --body-text-secondary-hover-color);
+        cursor: pointer;
       }
     }
   }

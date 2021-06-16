@@ -1,4 +1,4 @@
-import * as React from 'react'
+import Link from 'next/link'
 
 // Styles
 import Styles from './MenuBar.module.scss'
@@ -7,24 +7,32 @@ const MenuBar = () => (
     <nav className={Styles.MenuBar}>
         <ul>
             <li>
-                <a href="#">
-                    Home
-                </a>
+                <Link href="/">
+                    <a>
+                        Home
+                    </a>
+                </Link>
             </li>
             <li>
-                <a href="#">
-                    About
-                </a>
+                <Link href="/about">
+                    <a>
+                        About
+                    </a>
+                </Link>
             </li>
             <li>
-                <a href="#">
-                    Projects
-                </a>
+                <Link href="/projects">
+                    <a>
+                        Projects
+                    </a>
+                </Link>
             </li>
             <li>
-                <a href="#">
-                    Contact
-                </a>
+                <Link href="/contact">
+                    <a>
+                        Contact
+                    </a>
+                </Link>
             </li>
         </ul>
     </nav>
