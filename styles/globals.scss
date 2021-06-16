@@ -99,17 +99,25 @@ main {
     button {
       font-size: 16px;
       margin: 16px 0 0 0;
-      border-radius: 4px;
-      background-color: var(--background-color);
-      border: 1px var(--divider-color) solid;
+      border-radius: 12px;
+      background-color: #f4f4f4;
+      border: none;
       color: var(--body-text-secondary-color);
-      padding: 8px 12px;
-      transition: color 200ms, border 200ms;
+      padding: 12px 16px;
+      transition: color 200ms, background-color 200ms;
 
       &:hover {
-        border-color: var(--body-text-secondary-hover-color);
         color: var( --body-text-secondary-hover-color);
+        background-color: #ececec;
         cursor: pointer;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        background-color: #0a0a0a;
+
+        &:hover {
+          background-color: #111111;
+        }
       }
     }
   }

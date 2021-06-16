@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 // Components
 import Icon from '../src/components/atoms/Icon'
-import MenuBar from '../src/components/atoms/MenuBar'
+// import MenuBar from '../src/components/atoms/MenuBar'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         />
       </Head>
 
-      <MenuBar />
+      {/* <MenuBar /> */}
 
       <main>
         <h1>This is my projects page</h1>
