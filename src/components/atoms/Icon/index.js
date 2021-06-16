@@ -1,6 +1,7 @@
 import * as React from 'react'
 
 import CodePen from './Icons/Social/CodePen'
+import Dev from './Icons/Social/Dev'
 import Dribbble from './Icons/Social/Dribbble'
 import Figma from './Icons/Social/Figma'
 import GitHub from './Icons/Social/GitHub'
@@ -10,6 +11,7 @@ import Twitter from './Icons/Social/Twitter'
 
 const iconElements = (props) => ({
   'codepen': <CodePen {...props} />,
+  'dev': <Dev {...props} />,
   'dribbble': <Dribbble {...props} />,
   'figma': <Figma {...props} />,
   'github': <GitHub {...props} />,
