@@ -18,6 +18,8 @@
   --body-text-secondary-color: var(--gray-500);
   --body-text-secondary-hover-color: var(--gray-600);
   --divider-color: var(--gray-100);
+  --button-background: var(--gray-100);
+  --button-background-hover: var(--gray-200);
 
   @media (prefers-color-scheme: dark) {
     --background-color: var(--black);
@@ -26,6 +28,8 @@
     --body-text-secondary-color: var(--gray-600);
     --body-text-secondary-hover-color: var(--gray-500);
     --divider-color: var(--gray-800);
+    --button-background: var(--gray-900);
+    --button-background-hover: var(--gray-800);
   }
 }
 
@@ -113,24 +117,16 @@ main {
       font-size: 16px;
       margin: 16px 0 0 0;
       border-radius: 12px;
-      background-color: #f4f4f4;
+      background-color: var(--button-background);
       border: none;
-      color: var(--body-text-secondary-color);
+      color: var(--body-text-color);
       padding: 12px 16px;
       transition: color 200ms, background-color 200ms;
 
       &:hover {
-        color: var( --body-text-secondary-hover-color);
-        background-color: #ececec;
+        color: var( --header-text-color);
+        background-color: var(--button-background-hover);
         cursor: pointer;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        background-color: #0a0a0a;
-
-        &:hover {
-          background-color: #111111;
-        }
       }
     }
   }
