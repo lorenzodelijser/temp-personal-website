@@ -2,20 +2,25 @@ import Head from 'next/head'
 
 // Components
 import Icon from '../src/components/atoms/Icon'
-// import MenuBar from '../src/components/atoms/MenuBar'
+import MenuBar from '../src/components/atoms/MenuBar'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Lorenzo de Lijser</title>
-        <link
-          rel="icon"
-          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text x='0' y='14'>👋</text></svg>"
-        />
+
+        <meta name="apple-mobile-web-app-title" content="Lorenzo" />
+        <meta name="description" content="Website of Lorenzo de Lijser" />
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+        <link rel="shortcut icon" type="image/png" href="/images/favicon-180.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180.png" />
       </Head>
 
-      {/* <MenuBar /> */}
+      <MenuBar />
 
       <main>
         <h1>Lorenzo de Lijser</h1>

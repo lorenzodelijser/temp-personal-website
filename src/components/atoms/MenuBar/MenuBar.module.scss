@@ -1,11 +1,11 @@
 .MenuBar {
   --background-color: var(--white);
-  --background-hover-color: var(--gray-200);
+  --background-hover-color: var(--gray-100);
   --border-color: var(--gray-200);
 
   @media (prefers-color-scheme: dark) {
     --background-color: var(--black);
-    --background-hover-color: var(--gray-800);
+    --background-hover-color: var(--gray-900);
     --border-color: var(--gray-800);
   }
 
