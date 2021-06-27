@@ -1,23 +1,11 @@
-import Head from 'next/head'
 import Link from 'next/link'
 
 // Components
 import Icon from '../src/components/atoms/Icon'
-// import MenuBar from '../src/components/atoms/MenuBar'
 
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Lorenzo de Lijser</title>
-        <link
-          rel="icon"
-          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text x='0' y='14'>👋</text></svg>"
-        />
-      </Head>
-
-      {/* <MenuBar /> */}
-
       <main>
         <h1>This is my card page</h1>
         <p>There is nothing to see here yet, feel free to checkout my to visit my social profiles.</p>
@@ -36,13 +24,13 @@ export default function Home() {
           </a>
         </div>
         <div className="sub-section">
-            <Link href="/">
-                <a>
-                    <button>
-                        Return to Home
-                    </button>
-                </a>
-            </Link>
+          <Link href="/">
+            <a>
+              <button>
+                Return to Home
+              </button>
+            </a>
+          </Link>
         </div>
       </main>
     </div>
