@@ -4,33 +4,33 @@ import Link from 'next/link'
 import Styles from './MenuBar.module.scss'
 
 const MenuBar = () => (
-    <nav className={Styles.MenuBar}>
+    <nav className={Styles.menubar}>
         <ul>
             <li>
                 <Link href="/">
                     <a>
-                        Home
+                        <button>Home</button>
                     </a>
                 </Link>
             </li>
             <li>
                 <Link href="/about">
                     <a>
-                        About
+                        <button>About</button>
                     </a>
                 </Link>
             </li>
             <li>
                 <Link href="/projects">
                     <a>
-                        Projects
+                        <button>Projects</button>
                     </a>
                 </Link>
             </li>
             <li>
                 <Link href="/contact">
                     <a>
-                        Contact
+                        <button>Contact</button>
                     </a>
                 </Link>
             </li>
