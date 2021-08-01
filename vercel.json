@@ -51,6 +51,11 @@
             "permanent": true
         },
         {
+            "source": "/oku",
+            "destination": "https://oku.club/user/lorenzo",
+            "permanent": true
+        },
+        {
             "source": "/medium",
             "destination": "https://medium.com/@lorenzodelijser/about",
             "permanent": true
