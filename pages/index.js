@@ -1,5 +1,3 @@
-import Head from 'next/head'
-
 // Components
 import Icon from '../src/components/atoms/Icon'
 import MenuBar from '../src/components/atoms/MenuBar'

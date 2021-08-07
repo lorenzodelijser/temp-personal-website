@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import CodePen from './Icons/Social/CodePen'
 import Dev from './Icons/Social/Dev'
