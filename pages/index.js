@@ -7,7 +7,7 @@ import MenuBar from '../src/components/atoms/MenuBar'
 export default function Home() {
   return (
     <div className="container">
-      <MenuBar />
+      {/* <MenuBar /> */}
       <main>
         <h1>Lorenzo de Lijser</h1>
         <p>A new website is in progress, for the meanwhile you can visit my social profiles.</p>

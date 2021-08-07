@@ -3,7 +3,7 @@ import Link from 'next/link'
 // Components
 import Icon from '../src/components/atoms/Icon'
 
-export default function Home() {
+export default function Projects() {
   return (
     <div className="container">
       <main>
