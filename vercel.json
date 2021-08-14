@@ -59,6 +59,11 @@
             "source": "/medium",
             "destination": "https://medium.com/@lorenzodelijser/about",
             "permanent": true
+        },
+        {
+            "source": "/focus-google-docs-plugin",
+            "destination": "https://chrome.google.com/webstore/detail/focus-for-google-docs/ehogfddbkbeoadolmjppehadlpkbmfkn",
+            "permanent": true
         }
     ]
 }
