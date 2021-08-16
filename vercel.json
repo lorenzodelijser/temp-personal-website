@@ -64,6 +64,11 @@
             "source": "/focus-google-docs-plugin",
             "destination": "https://chrome.google.com/webstore/detail/focus-for-google-docs/ehogfddbkbeoadolmjppehadlpkbmfkn",
             "permanent": true
+        },
+        {
+            "source": "/focus-dark-google-docs-plugin",
+            "destination": "https://chrome.google.com/webstore/detail/focus-dark-for-google-doc/mjlamjhpnimloagnjomjnpbchimkjdlf",
+            "permanent": true
         }
     ]
 }
